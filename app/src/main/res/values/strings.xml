@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hoofbeats</string>
+    <string name="change_view">Change View \u21EA</string>
+    <string name="change_view_retract">Change View \u21B2</string>
+    <string name="connectSim">Toggle Sim</string>
+    <string name="performTuning">Tune</string>
+    <string name="rotate_on">\u21BA</string>
+    <string name="rotate_off">\u21BB</string>
+    <string name="battery_label">Battery:</string>
+    <string name="txtTuning">Tuning...</string>
+    <string name="startNetStream">Stream</string>
+    <string name="stopNetStream">Disconnect</string>
+    <string name="please_connect_flir_one">Please Connect FLIR One</string>
+    <string name="cable">Cable</string>
+    <string name="uploading">Uploading...</string>
+    <string name="saving">Saving...</string>
+    <string name="title_request_permission">Requesting permissions......</string>
+    <string name="permission_read_external_storage">The app requires read external storage permissions.</string>
+</resources>

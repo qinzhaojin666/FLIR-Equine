@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:touchscreenBlocksFocus="false"
+    tools:context=".ui.activity.CompareActivity">
+
+    <TextView
+        android:id="@+id/temperatureReadout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/pad5dp"
+        android:paddingTop="@dimen/pad5dp"
+        android:paddingRight="@dimen/pad5dp"
+        android:textColor="@color/white"
+        tools:text="The temperature for the tapped location is 25 deg. C" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="start|top">
+
+        <ImageView
+            android:id="@+id/itemAPreviewImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            tools:src="@mipmap/ic_launcher" />
+
+        <com.hoofbeats.app.ui.view.CrossHairView
+            android:id="@+id/itemACrosshairs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="start|top">
+
+        <ImageView
+            android:id="@+id/itemBPreviewImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            tools:src="@mipmap/ic_launcher" />
+
+        <com.hoofbeats.app.ui.view.CrossHairView
+            android:id="@+id/itemBCrosshairs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/pad5dp"
+        android:paddingRight="@dimen/pad5dp"
+        android:text="Text:"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/diagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/pad5dp"
+        android:paddingRight="@dimen/pad5dp"
+        android:paddingBottom="@dimen/pad5dp"
+        android:textColor="@color/white"
+        tools:text="possible problem" />
+
+</LinearLayout>

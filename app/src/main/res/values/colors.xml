@@ -1,0 +1,28 @@
+<resources>
+    <color name="action_text">#3D3AB0</color>
+    <color name="colorPrimary">#758cc0</color>
+    <color name="colorPrimaryDark">#5c6e96</color>
+    <color name="colorAccent">#ffffbb33</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <color name="divider">#d7d7db</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_normal">#ff757575</color>
+    <color name="gray_pressed">#ff616161</color>
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

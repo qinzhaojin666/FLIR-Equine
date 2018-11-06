@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pad90dp">90dp</dimen>
+    <dimen name="pad36dp">36dp</dimen>
+    <dimen name="pad60dp">60dp</dimen>
+    <dimen name="pad47dp">47dp</dimen>
+    <dimen name="pad51dp">51dp</dimen>
+    <dimen name="pad8dp">8dp</dimen>
+    <dimen name="pad39dp">39dp</dimen>
+    <dimen name="txt8sp">8sp</dimen>
+    <dimen name="pad3dp">3dp</dimen>
+    <dimen name="pad5dp">5dp</dimen>
+</resources>
